@@ -1,4 +1,4 @@
-# Indoor-positioning-system
+# Indoor-positioning-system (2017)
 
 This project uses WiFi signal strength from various fixed nodes in order to calculate the user's position in real-time. The advantage over GPS is that this can be used for short-range positioning, like in a building/mall. To serve as Wi-Fi nodes, we use ESP8266 modules, a family of Wi-Fi chips with a microcontroller unit inbuilt. One ESP module is used as a station, which measures the signal strength from the other ESPs (Access points). This station ESP uploads the retrieved data on to a web page.
 Then we download the data on a computer, process it and pinpoint the location of the station ESP, relative to the access points.
